@@ -116,8 +116,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="answerField" destination="FR8-pD-ZJP" id="2F1-lW-BGC"/>
-                        <outlet property="questionField" destination="2sk-Wa-t9p" id="uwA-ql-LWy"/>
+                        <outlet property="answerField" destination="FR8-pD-ZJP" id="dk0-uM-XBe"/>
+                        <outlet property="questionField" destination="2sk-Wa-t9p" id="ex5-tM-XZP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iUJ-C4-CMa" userLabel="First Responder" sceneMemberID="firstResponder"/>

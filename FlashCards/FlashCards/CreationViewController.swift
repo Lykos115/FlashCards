@@ -11,8 +11,10 @@ import UIKit
 class CreationViewController: UIViewController {
 
     var flashCardController : ViewController!
-    @IBOutlet weak var answerField: UITextField!
     @IBOutlet weak var questionField: UITextField!
+    @IBOutlet weak var answerField: UITextField!
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,12 +32,14 @@ class CreationViewController: UIViewController {
         
         let answerText = answerField.text;
         
-//        flashCardController.updateFlashcard(question: questionText, answer: answerText);
-//        
+        flashCardController.updateFlashcard(question: questionText!, answer: answerText!);
+//
         
         dismiss(animated: true);
         
     }
+    
+
     
     
     /*
